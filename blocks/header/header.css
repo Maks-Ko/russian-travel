@@ -1,0 +1,7 @@
+.header {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal; 
+    padding: 28px 48px 56px;
+    display: flex;
+    justify-content: space-between;
+}
