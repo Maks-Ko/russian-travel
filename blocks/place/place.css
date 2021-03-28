@@ -1,0 +1,13 @@
+.place {    
+    background-color: #2A2C2F;
+    padding: 0 148px 80px;
+    display: grid;
+    grid-template-columns: minmax(320px, 460px) 1fr;
+    gap: 48px 40px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+}
+
+.place:last-of-type {
+    padding-bottom: 92px;
+}

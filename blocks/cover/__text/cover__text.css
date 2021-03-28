@@ -1,0 +1,8 @@
+.cover__text {
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    white-space: pre-line;
+}
