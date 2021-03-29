@@ -1,4 +1,4 @@
-.place__website_text {
+.place__website-text {
     margin: 0;
     font-weight: normal;
     font-size: 12px;
@@ -8,13 +8,13 @@
 }
 
 @media (max-width: 780px) {
-    .place__website_text {
+    .place__website-text {
         line-height: 12px;
     }
 }
 
 @media (max-width: 600px) {
-    .place__website_text  {
+    .place__website-text  {
         padding: 0 16px;
     }
 }

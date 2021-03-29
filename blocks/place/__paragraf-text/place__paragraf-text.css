@@ -1,4 +1,4 @@
-.place__paragraf_text {
+.place__paragraf-text {
     margin: 0 0 26px;
     font-weight: normal;
     font-size: 18px;
@@ -6,12 +6,12 @@
     color: #FFFFFF;
 }
 
-.place__paragraf_text:last-of-type {
+.place__paragraf-text:last-of-type {
     margin-bottom: 0;
 }
 
 @media (max-width: 780px) {
-    .place__paragraf_text {
+    .place__paragraf-text {
         margin: 0 0 25px;
         font-size: 16px;
         color: #FFFFFF;
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 600px) {
-    .place__paragraf_text  {
+    .place__paragraf-text  {
         padding: 0 16px;
     }
 }
