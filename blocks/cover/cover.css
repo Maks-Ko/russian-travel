@@ -1,8 +1,20 @@
 .cover {
     background-color: #2A2C2F;
-    padding: 0 48px 92px;
+    padding: 0 calc((100% - 1184px)/2) 92px;
     /*max-width: 1184px;
     margin: 0 auto;*/
     font-family: 'Inter', 'Arial', sans-serif;
     color: #FFFFFF;
+}
+
+@media (max-width: 800px) {
+    .cover {
+        padding: 0 calc((100% - 1184px)/2) 88px;
+    }
+}
+
+@media (max-width: 525px) {
+    .cover {
+        padding: 0 calc((100% - 1184px)/2) 64px;
+    }
 }

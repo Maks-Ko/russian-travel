@@ -1,8 +1,20 @@
 .header {    
     background-color: #2A2C2F;
     font-family: 'Inter', 'Arial', sans-serif;
-    font-style: normal;
+    color: #FFFFFF;
     padding: 28px 48px 56px;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 780px) {
+    .header {
+        padding: 28px 24px 48px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header {
+        padding: 16px 16px 48px;
+    }
 }

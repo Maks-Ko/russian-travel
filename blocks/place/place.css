@@ -2,7 +2,7 @@
     background-color: #2A2C2F;
     padding: 0 148px 80px;
     display: grid;
-    grid-template-columns: minmax(320px, 460px) 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
     gap: 48px 40px;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
@@ -10,4 +10,32 @@
 
 .place:last-of-type {
     padding-bottom: 92px;
+}
+
+@media (max-width: 1160px) {
+    .place {
+        padding: 0 calc((100% - 928px)/2) 80px;
+        gap: 48px 32px;
+    }
+}
+
+@media (max-width: 960px) {
+    .place {
+        padding: 0 calc((100% - 720px)/2) 72px;
+        gap: 48px 28px;
+    }
+
+    .place:last-of-type {
+        padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 600px) {
+    .place {
+        gap: 32px;
+    }
+
+    .place:last-of-type {
+        padding-bottom: 66px;
+    }
 }

@@ -12,3 +12,9 @@
 .place__website_link:hover {
     opacity: 0.8;
 }
+
+@media (max-width: 600px) {
+    .place__website_link  {
+        padding: 0 16px;
+    }
+}

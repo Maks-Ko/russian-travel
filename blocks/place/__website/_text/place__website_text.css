@@ -2,7 +2,19 @@
     margin: 0;
     font-weight: normal;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 170%;
     letter-spacing: 0.2em;
     color: #AAAAAA;
+}
+
+@media (max-width: 780px) {
+    .place__website_text {
+        line-height: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .place__website_text  {
+        padding: 0 16px;
+    }
 }

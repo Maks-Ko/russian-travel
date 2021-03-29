@@ -4,5 +4,17 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Inter', 'Arial', sans-serif;
-    padding: 0 148px;
+    padding: 0 calc((100% - 984px)/2);
+}
+
+@media (max-width: 1060px) {
+    .lead{
+        padding: 0 calc((100% - 928px)/2);
+    }
+}
+
+@media (max-width: 780px) {
+    .lead{
+        padding: 0;
+    }
 }

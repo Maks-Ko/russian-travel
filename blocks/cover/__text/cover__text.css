@@ -6,3 +6,17 @@
     text-align: center;
     white-space: pre-line;
 }
+
+@media (max-width: 720px) {
+    .cover__text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 525px) {
+    .cover__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

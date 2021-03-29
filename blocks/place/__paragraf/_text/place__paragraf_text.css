@@ -9,3 +9,17 @@
 .place__paragraf_text:last-of-type {
     margin-bottom: 0;
 }
+
+@media (max-width: 780px) {
+    .place__paragraf_text {
+        margin: 0 0 25px;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 600px) {
+    .place__paragraf_text  {
+        padding: 0 16px;
+    }
+}
