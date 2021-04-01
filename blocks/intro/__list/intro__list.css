@@ -1,6 +1,7 @@
-.intro__text_list {
+.intro__list {
+    list-style-type: none;
     margin: 0;
-    white-space: pre-line;
+    padding: 0;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;

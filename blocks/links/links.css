@@ -1,4 +1,17 @@
 .links {
-    display: flex;
-    flex-direction: row;
+    margin: auto 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.links li {
+    display: inline;
+}
+
+ul.links li {
+    margin-right: 18px;
+}
+
+ul.links li:last-child {
+    margin-right: 0;
 }

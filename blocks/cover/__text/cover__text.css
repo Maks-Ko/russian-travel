@@ -1,14 +1,29 @@
 .cover__text {
     margin: 0;
+    padding: 0 calc((100% - 360px)/2) 245px;
+    max-width: 360px;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    white-space: pre-line;
+}
+
+@media (max-width: 1100px) {
+    .cover__text {
+        padding: 0 calc((100% - 360px)/2) 115px;
+    }
+}
+
+@media (max-width: 800px) {
+    .cover__text {
+        padding: 0 calc((100% - 360px)/2) 115px;
+    }
 }
 
 @media (max-width: 720px) {
     .cover__text {
+        max-width: 400px;        
+        padding: 0 calc((100% - 400px)/2) 70px;
         font-size: 16px;
         line-height: 18px;
     }
@@ -16,6 +31,7 @@
 
 @media (max-width: 525px) {
     .cover__text {
+        padding: 0 calc((100% - 288px)/2) 33px;
         font-size: 14px;
         line-height: 16px;
     }

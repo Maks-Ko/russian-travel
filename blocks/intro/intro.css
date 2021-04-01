@@ -1,5 +1,6 @@
 .intro {
     font-family: 'Inter', 'Arial', sans-serif;
+    color: #FFFFFF;
     font-style: normal;
     padding: 92px calc((100% - 984px)/2);    
 }

@@ -7,6 +7,14 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 800px) {
+    .intro__title {
+        max-width: 720px;
+        
+    }
+    
+}
+
 @media (max-width: 525px) {
     .intro__title {
         font-size: 32px;

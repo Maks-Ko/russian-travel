@@ -9,10 +9,10 @@
 <body class="body">
     <header class="header body__container">
         <img src="images/header-logo.svg" alt="Логотип" class="header__logo">
-        <div class="links"> 
-            <a href="#" target="_self" class="links__lang-link">Ru</a>
-            <a href="#" target="_self" class="links__lang-link">En</a>
-        </div>  
+        <ul class="links"> 
+            <li><a href="#" target="_self" class="links__lang-link links__lang-link_activ">Ru</a></li>
+            <li><a href="#" target="_self" class="links__lang-link">En</a></li>
+        </ulv>  
     </header>    
     <main class="body__container-max">
         <section class="lead">
@@ -22,8 +22,10 @@
             <p class="lead__subtitle">Настоящая страна не в выпусках 
                 новостей, а здесь.
             </p>
-            <img src="./images/lead-polka.jpg" alt="Маршрут от Пскова до Улан-Удэ" class="lead__imag-polka">
-            <p class="lead__caption">ваша полка — верхняя</p>
+            <figure class="lead__figure">
+                <img src="./images/lead-polka.jpg" alt="Маршрут от Пскова до Улан-Удэ" class="lead__imag-polka">
+                <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
         </section>
         <section class="intro">
             <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -37,11 +39,13 @@
                 усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
                 Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
-            <p class="intro__text intro__text_list">Часовых поясов 11
-                Объектов природного наследия ЮНЕСКО 12
-                Объектов культурного наследия ЮНЕСКО 16
-                Природных заповедников 105
-                Аэропортов 241
+            <ul class="intro__list">
+                <li>Часовых поясов <span class="intro__list_normal">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_normal">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_normal">16</span></li>
+                <li>Природных заповедников <span class="intro__list_normal">105</span></li>
+                <li>Аэропортов <span class="intro__list_normal">241</span></li>
+            </ul>
             </p>
         </section>                
         <section class="photo">
@@ -59,7 +63,7 @@
             <img src="./images/photo-grid-ergaki.jpg" alt="туман, горы" class="photo__item">                
         </section>
         <section class="places">
-            <div class="place">
+            <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
                     <p class="place__website-text">URL</p>
@@ -79,8 +83,8 @@
                         природы и запах стального, прохладного моря.
                     </p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
                     <p class="place__website-text">URL</p>
@@ -98,8 +102,8 @@
                         Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
                     </p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
                     <p class="place__website-text">URL</p>
@@ -112,15 +116,13 @@
                         горные реки и озёра. А если вы откроете в автомобиле окна,
                         сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
                     </p>
-                    <p class="place__paragraf-text">На этом Калининградская область не заканчивается.
-                        Для путешественника и исследователя там же по соседству — самая западная точка России,
-                        Балтийская коса, — и немецкое наследие россыпи небольших приморских городов.
-                        Атмосфера здешних мест исключает суету, окуная в спокойствие
-                        природы и запах стального, прохладного моря.
+                    <p class="place__paragraf-text">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом.
+                        Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси,
+                        над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                     </p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
                     <p class="place__website-text">URL</p>
@@ -137,14 +139,14 @@
                         на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
                     </p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
                     <p class="place__website-text">URL</p>
                     <a href="http://vodlozero.ru" target="_blank" class="place__website-link">http://vodlozero.ru/</a>
                 </div>
-                <img src="./images/place-kosa.jpg" alt="Карелия" class="place__image">
+                <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
                 <div class="place__paragraf">
                     <p class="place__paragraf-text">Сибирь заканчивается не на Урале, а в Карелии:
                         образующая тайгу сибирская лиственница не растёт западнее Водлозера.
@@ -155,27 +157,24 @@
                         в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                     </p>
                 </div>
-            </div>
+            </article>
         </section>
         <section class="cover">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-                <h2 class="cover__title">До Байкала
-                    «на собаках»
-                </h2>
-                <p class="cover__text">По мотивам учебной темы о Транссибе
-                    — путешествие от столицы до Байкала
-                    на электричках.
-                </p>
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <p class="cover__text">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
             </a>
         </section>
     </main>
     <footer class="footer body__container">
         <nav class="footer__nav">
-            <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
-            <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
-            <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
-            <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
-            <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+            <ul class="links links_footer">
+                <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
+                <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
+                <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
+                <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
+                <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
+            </ul>
         </nav>
         <p class="footer__copyright">&copy;2021. Максим Кожевников</p>
     </footer>

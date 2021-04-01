@@ -1,13 +1,11 @@
 .footer__link {
     text-decoration: none;
     color: inherit;
-    margin-right: 18px;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
     opacity: 1;
     transition: opacity 1s ease-in-out;
-    display: block;
 }
 
 .footer__link:last-of-type {
@@ -18,9 +16,8 @@
     opacity: 0.8;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 740px) {
     .footer__link {
-        margin-bottom: 32px;
         font-size: 24px;
         line-height: 24px;
     }
