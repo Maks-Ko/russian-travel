@@ -1,0 +1,9 @@
+.footer__links-list {
+    margin-right: 18px;
+}
+
+@media (max-width: 740px) {
+    .footer__links-list {
+        margin: 0 0 32px;
+    }
+}

@@ -10,7 +10,7 @@
 
 @media (max-width: 1100px) {
     .cover__text {
-        padding: 0 calc((100% - 360px)/2) 115px;
+        padding: 0 calc((100% - 360px)/2) 195px;
     }
 }
 
